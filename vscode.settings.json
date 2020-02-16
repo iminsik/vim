@@ -1,0 +1,96 @@
+{
+  "vim.easymotion": true,
+  "vim.sneak": true,
+  "vim.incsearch": true,
+  "vim.smartcase": true,
+  "vim.ignorecase": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "k"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "d"],
+      "after": ["d", "d"]
+    },
+    {
+      "before": ["<C-n>"],
+      "commands": [":nohl"]
+    },
+    {
+        "before": ["g", "e"],
+        "after": ["<leader>", "g", "e"]
+    },
+    {
+        "before": ["e"],
+        "after": ["<leader>", "e"]
+    },
+    {
+        "before": ["w"],
+        "after": ["<leader>", "w"]
+    },
+    {
+        "before": ["b"],
+        "after": ["<leader>", "b"]
+    },
+    {
+      "before": ["<C-l>"],
+      "commands": [":tabnext"]
+    },
+    {
+      "before": ["<C-h>"],
+      "commands": [":tabprev"]
+    }
+  ],
+  "vim.normalModeKeyBindings": [
+    {
+        "before": ["j"],
+        "after": ["g", "j"]
+    },
+    {
+        "before": ["k"],
+        "after": ["g", "k"]
+    },
+    {
+        "before": ["$"],
+        "after": ["g", "$"]
+    },
+    {
+        "before": ["^"],
+        "after": ["g", "$"]
+    }
+  ],
+  "vim.visualModeKeyBindings": [
+      {
+          "before": ["j"],
+          "after": ["g", "j"]
+      },
+      {
+          "before": ["k"],
+          "after": ["g", "k"]
+      },
+      {
+          "before": ["$"],
+          "after": ["g", "$"]
+      },
+      {
+          "before": ["^"],
+          "after": ["g", "$"]
+      }
+  ],
+  "vim.leader": "<space>",
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false
+  },
+"team.showWelcomeMessage": false,
+"window.zoomLevel": -1,
+"workbench.editor.enablePreviewFromQuickOpen": false,
+"diffEditor.ignoreTrimWhitespace": false,
+"vim.camelCaseMotion.enable": true
+}
